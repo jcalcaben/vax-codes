@@ -7,3 +7,7 @@ docs/_site
 docs/Gemfile.lock
 docs/.jekyll-cache
 
+# From gatsby init
+node_modules/
+.cache/
+public
