@@ -13,7 +13,15 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
-    "gatsby-plugin-mdx",
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        extensions: [".md", ".mdx"],
+        defaultLayouts: {
+          default: require.resolve("./src/lib/components/App/"),
+        },
+      },
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
