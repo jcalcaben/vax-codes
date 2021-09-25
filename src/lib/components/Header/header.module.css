@@ -1,0 +1,37 @@
+.root {
+  composes: max-w-full from global;
+  composes: bg-blue-600 from global;
+  composes: grid from global;
+  composes: grid-cols-3 from global;
+  composes: p-2 from global;
+  composes: text-white from global;
+  composes: items-center from global;
+}
+
+.brand {
+  composes: text-xl from global;
+}
+
+.nav {
+  composes: text-blue-300 from global;
+  composes: justify-self-end from global;
+  composes: justify-items-center from global;
+  composes: grid from global;
+  composes: grid-cols-2 from global;
+}
+
+.navItem {
+  /** Hover Styles **/
+  composes: hover_text-blue-100 from global;
+}
+
+.scan {
+  composes: justify-self-center from global;
+  composes: border-2 from global;
+  composes: p-2 from global;
+  composes: rounded-md from global;
+
+  /** Hover Styles **/
+  composes: hover_bg-white from global;
+  composes: hover_text-blue-600 from global;
+}

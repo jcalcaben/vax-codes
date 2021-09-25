@@ -1,7 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header component renders the correct basic shape 1`] = `
-<header>
-  Header content
+<header
+  className="root"
+>
+  <span
+    className="brand"
+  >
+    Vax.Codes
+  </span>
+  <button
+    className="scan"
+  >
+    Scan QR Code
+  </button>
+  <nav
+    className="nav"
+  >
+    <span
+      className="navItem"
+    >
+      How it works
+    </span>
+    <span
+      className="navItem"
+    >
+      About us
+    </span>
+  </nav>
 </header>
 `;
