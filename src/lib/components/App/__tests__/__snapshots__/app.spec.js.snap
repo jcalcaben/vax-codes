@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders the correct basic shape 1`] = `
+<React.Fragment>
+  <Header />
+  <Main>
+    Content
+  </Main>
+  <Footer />
+</React.Fragment>
+`;
