@@ -1,0 +1,17 @@
+.root {
+
+}
+
+.item {
+	composes: text-blue-600 from global;
+	composes: underline from global;
+
+}
+
+.list {
+	composes: list-none from global;
+}
+
+.title {
+	composes: my-0.5 from global;
+}

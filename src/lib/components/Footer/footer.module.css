@@ -1,0 +1,37 @@
+.root {
+	composes: text-gray-500 from global;
+	composes: bg-gray-100 from global;
+	composes: max-w-full from global;
+	composes: grid from global;
+	composes: justify-center from global;
+	composes: px-12 from global;
+	composes: py-6 from global;
+
+	grid-template-columns: 3fr 1fr;
+}
+
+.link {
+	composes: text-blue-600 from global;
+	composes: underline from global;
+}
+
+.backToTop {
+	composes: justify-self-end from global;
+	composes: m-0 from global;
+	composes: p-0 from global;
+	composes: self-start from global;
+	composes: col-span-2 from global;
+	composes: col-start-2 from global;
+	composes: row-start-1 from global;
+
+	composes: link;
+}
+
+.message {
+	composes: mb-6 from global;
+}
+
+.navigation {
+	composes: flex from global;
+	composes: space-x-12 from global;
+}

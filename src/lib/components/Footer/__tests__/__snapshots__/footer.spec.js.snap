@@ -1,7 +1,212 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Footer component renders the correct basic shape 1`] = `
-<footer>
-  Footer content
+<footer
+  className="root"
+>
+  <p
+    className="message"
+  >
+    Vax.Codes is an open-source project run by volunteers at 
+    <a
+      className="link"
+      href="https://www.open-austin.org/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Open Austin
+    </a>
+    .
+  </p>
+  <div
+    className="navigation"
+  >
+    <nav
+      className="root"
+    >
+      <div
+        className="title"
+      >
+        Helpful links
+        :
+      </div>
+      <ul
+        className="list"
+      >
+        <li
+          className="item"
+        >
+          <a
+            aria-current="page"
+            className=""
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            style={Object {}}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="item"
+        >
+          <a
+            href="/how-it-works/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            How it works
+          </a>
+        </li>
+        <li
+          className="item"
+        >
+          <a
+            href="/about/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            About us
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav
+      className="root"
+    >
+      <div
+        className="title"
+      >
+        QR Codes
+        :
+      </div>
+      <ul
+        className="list"
+      >
+        <li
+          className="item"
+        >
+          <a
+            href="/scan/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Scan a QR code
+          </a>
+        </li>
+        <li
+          className="item"
+        >
+          <a
+            href="/issues/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Browse issuers
+          </a>
+        </li>
+        <li
+          className="item"
+        >
+          <a
+            href="/groups/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Browse groups
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav
+      className="root"
+    >
+      <div
+        className="title"
+      >
+        Admin portal
+        :
+      </div>
+      <ul
+        className="list"
+      >
+        <li
+          className="item"
+        >
+          <a
+            href="/admin/issuers/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Issuers admin
+          </a>
+        </li>
+        <li
+          className="item"
+        >
+          <a
+            href="/admin/groups/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Group owners
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav
+      className="root"
+    >
+      <div
+        className="title"
+      >
+        Other links
+        :
+      </div>
+      <ul
+        className="list"
+      >
+        <li
+          className="item"
+        >
+          <a
+            href="/security/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Security
+          </a>
+        </li>
+        <li
+          className="item"
+        >
+          <a
+            href="/developers/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            API docs
+          </a>
+        </li>
+        <li
+          className="item"
+        >
+          <a
+            href="https://github.com/open-austin/vax-codes"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Github repo 
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <a
+    className="backToTop"
+    href="#top"
+  >
+    Back to top
+  </a>
 </footer>
 `;

@@ -1,14 +1,11 @@
 import React from 'react';
 import Footer from '../footer';
-import ShallowRenderer from 'react-test-renderer/shallow';
-
-const renderer = new ShallowRenderer();
+import TestRenderer from 'react-test-renderer';
 
 describe("Footer component", () => {
   test("renders the correct basic shape", () => {
-    renderer.render(<Footer>Content</Footer>);
-		const output = renderer.getRenderOutput();
+    const tree = TestRenderer.create(<Footer/>);
 
-    expect(output).toMatchSnapshot();
+    expect(tree.toJSON()).toMatchSnapshot();
   });
 });
