@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component renders the correct basic shape 1`] = `
+<div
+  className="root"
+>
+  <section
+    className="callToAction"
+  >
+    <h1
+      className="heading"
+    >
+      Heading
+    </h1>
+    <p
+      className="summary"
+    >
+      Lorem ipsum
+    </p>
+  </section>
+  <div
+    className="image"
+  >
+    <img
+      alt="Man in Gray Long Sleeve Shirt Holding Baby in White Onesie"
+      src="./images/homeHero.jpg"
+    />
+    <div>
+      <span
+        className="attribution"
+      >
+        Public Domain: 
+      </span>
+      <a
+        className="attributionLink"
+        href="https://www.pexels.com/photo/man-in-gray-long-sleeve-shirt-holding-baby-in-white-onesie-6973197/"
+      >
+        Mikhail Nilov
+      </a>
+    </div>
+  </div>
+</div>
+`;

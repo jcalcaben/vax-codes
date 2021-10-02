@@ -1,7 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Main component renders the correct basic shape 1`] = `
-<main>
-  Content
+<main
+  className="root"
+>
+  <div
+    className="container"
+  >
+    Content
+  </div>
 </main>
 `;
