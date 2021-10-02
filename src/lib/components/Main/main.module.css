@@ -1,0 +1,9 @@
+.root {
+	composes: grid from global;
+}
+
+.container {
+	composes: w-5/6 from global;
+	composes: justify-self-center from global;
+
+}

@@ -1,9 +1,15 @@
-import React from 'react';
+import React from "react";
 
-const Main = props => {
-	const { children } = props;
+import { root, container } from "./main.module.css";
 
-	return <main>{children}</main>
-}
+const Main = (props) => {
+  const { children } = props;
+
+  return (
+    <main className={root}>
+      <div className={container}>{children}</div>
+    </main>
+  );
+};
 
 export default Main;
